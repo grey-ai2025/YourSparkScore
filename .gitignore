@@ -1,0 +1,15 @@
+# Editor / tooling
+.claude/
+.playwright-mcp/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencies (none currently, but future-proofing)
+node_modules/
