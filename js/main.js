@@ -1,5 +1,5 @@
 /* =====================================================================
-   GREY AI — Spark Score™ Survey landing page
+   GREY AI | Spark Score™ Survey landing page
    Behavior: footer year, smooth-scroll, animated spark constellation
    ===================================================================== */
 
