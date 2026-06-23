@@ -24,8 +24,10 @@
   --shadow-md: 0 12px 40px rgba(10,30,28,.10), 0 2px 8px rgba(10,30,28,.05);
   --shadow-glow: 0 10px 36px rgba(47,214,195,.30);
 
-  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
-  --font-body:    "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  /* Avenir where available (Apple devices ship it); Montserrat is a geometric
+     web fallback so other visitors get a close, consistent look. */
+  --font-display: "Avenir Next", "Avenir", "Montserrat", system-ui, -apple-system, sans-serif;
+  --font-body:    "Avenir Next", "Avenir", "Montserrat", system-ui, -apple-system, sans-serif;
 
   --maxw: 1240px;
 }
@@ -350,6 +352,13 @@ h1.hero-title sup {
   margin: 0 0 .9rem;
 }
 .survey-head h2 em { font-style: normal; color: var(--spark-deep); }
+.survey-head h2 sup {
+  font-size: .38em;
+  font-weight: 600;
+  top: -1em;
+  margin-left: .05em;
+  color: var(--ink-faint);
+}
 .survey-head p {
   margin: 0;
   font-size: clamp(1rem, 1.4vw, 1.12rem);
